@@ -14,7 +14,7 @@ class ThermalCameraNode(Node):
         super().__init__('thermal_camera_node')
 
         self.declare_parameter('device_id', 0)
-        self.declare_parameter('frame_id', 'thermal_camera')
+        self.declare_parameter('frame_id', 'thermal_link')
         self.declare_parameter('publish_rate', 30.0) # Hz
 
         device_id = self.get_parameter('device_id').get_parameter_value().integer_value

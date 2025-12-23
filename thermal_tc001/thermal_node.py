@@ -81,7 +81,6 @@ def main(args=None):
         if 'node' in locals():
             node.cap.release()
             node.destroy_node()
-        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

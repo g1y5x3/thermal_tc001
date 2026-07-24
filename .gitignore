@@ -1,0 +1,7 @@
+# Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test caches
+.pytest_cache/
